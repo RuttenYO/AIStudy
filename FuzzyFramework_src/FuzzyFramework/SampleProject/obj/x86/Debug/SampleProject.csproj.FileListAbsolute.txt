@@ -1,0 +1,15 @@
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\bin\Debug\SampleProject.exe
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\bin\Debug\SampleProject.pdb
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\bin\Debug\FuzzyFramework.dll
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\bin\Debug\FuzzyFramework.Graphics.dll
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\bin\Debug\PolyLib.dll
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\bin\Debug\FuzzyFramework.Graphics.pdb
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\bin\Debug\FuzzyFramework.pdb
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\bin\Debug\PolyLib.pdb
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\obj\x86\Debug\SampleProject.csprojResolveAssemblyReference.cache
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\obj\x86\Debug\SampleProject.TemperatureExample.resources
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\obj\x86\Debug\SampleProject.FruitExample.resources
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\obj\x86\Debug\SampleProject.Properties.Resources.resources
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\obj\x86\Debug\SampleProject.csproj.GenerateResource.Cache
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\obj\x86\Debug\SampleProject.exe
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\SampleProject\obj\x86\Debug\SampleProject.pdb

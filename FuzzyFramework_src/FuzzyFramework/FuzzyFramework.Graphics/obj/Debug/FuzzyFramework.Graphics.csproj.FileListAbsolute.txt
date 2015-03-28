@@ -1,0 +1,11 @@
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\FuzzyFramework.Graphics\bin\Debug\FuzzyFramework.Graphics.dll
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\FuzzyFramework.Graphics\bin\Debug\FuzzyFramework.Graphics.pdb
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\FuzzyFramework.Graphics\bin\Debug\FuzzyFramework.dll
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\FuzzyFramework.Graphics\bin\Debug\PolyLib.dll
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\FuzzyFramework.Graphics\bin\Debug\FuzzyFramework.pdb
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\FuzzyFramework.Graphics\bin\Debug\PolyLib.pdb
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\FuzzyFramework.Graphics\obj\Debug\FuzzyFramework.Graphics.csprojResolveAssemblyReference.cache
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\FuzzyFramework.Graphics\obj\Debug\FuzzyFramework.Graphics.Resources.resources
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\FuzzyFramework.Graphics\obj\Debug\FuzzyFramework.Graphics.csproj.GenerateResource.Cache
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\FuzzyFramework.Graphics\obj\Debug\FuzzyFramework.Graphics.dll
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\FuzzyFramework.Graphics\obj\Debug\FuzzyFramework.Graphics.pdb

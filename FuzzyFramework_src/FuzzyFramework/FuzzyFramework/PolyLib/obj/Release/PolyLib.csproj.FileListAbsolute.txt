@@ -1,0 +1,5 @@
+D:\UHK\2010\Fuzzy Logic in WfMS\FuzzyFramework\FuzzyFramework\PolyLib\bin\Release\PolyLib.dll
+D:\UHK\2010\Fuzzy Logic in WfMS\FuzzyFramework\FuzzyFramework\PolyLib\bin\Release\PolyLib.pdb
+D:\UHK\2010\Fuzzy Logic in WfMS\FuzzyFramework\FuzzyFramework\PolyLib\obj\Release\ResolveAssemblyReference.cache
+D:\UHK\2010\Fuzzy Logic in WfMS\FuzzyFramework\FuzzyFramework\PolyLib\obj\Release\PolyLib.dll
+D:\UHK\2010\Fuzzy Logic in WfMS\FuzzyFramework\FuzzyFramework\PolyLib\obj\Release\PolyLib.pdb
