@@ -20,6 +20,9 @@ namespace AIStudySystem
         List<Label> labels;
         double[] ar;
         double[,] influence;
+        double average;
+        double max;
+
         public enum EBelongType {
             EBTLow,
             EBTAverage,
@@ -34,6 +37,14 @@ namespace AIStudySystem
             labels.Add(label2);
             labels.Add(label3);
             labels.Add(label4);
+
+
+            //Setup Fuzzy Logic Sets
+           
+
+            //Setup Rules for Fuzzy Logic
+
+            
 
             Random random = new Random();
             influence = new double[5, 5];
@@ -58,25 +69,61 @@ namespace AIStudySystem
                 i++;
             }
 
-            double max = 0;
+            max = 0;
             for (i=0; i<ar.Length; i++)
                 for (int j = 0; j < ar.Length; j++)
                 {
                     if (i == j) continue;
                     max = Math.Max(Math.Abs(ar[i] - ar[j]), max);
                 }
-            double average = 0;
+            average = 0;
             for (i = 0; i < ar.Length; i++)
             {
                 average += ar[i];
             }
             average /= ar.Length;
+
+
+
+        
         }
 
         public EBelongType calculateBelonging(double variable)
         {
 
             return 0;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ContinuousDimension dimension = new ContinuousDimension("dimension", "deviation", "points", 0, 1);
+            ContinuousDimension conclusion = new ContinuousDimension("conclusion", "conclusion", "points", 0, 1);
+
+            FuzzySet low = new RightLinearSet(dimension, "low", 0, (decimal)0.4);
+            FuzzySet middle = new TriangularSet(dimension, "middle", (decimal)0.5, (decimal)0.8);
+            FuzzySet high = new LeftLinearSet(dimension, "high", (decimal)0.7, (decimal)1);
+
+            FuzzySet conclusionLow = new RightLinearSet(conclusion, "conclusionLow", 0, (decimal)0.6);
+            FuzzySet conclusionHigh = new LeftLinearSet(conclusion, "conclusionHigh", (decimal)0.4, (decimal)1);
+
+            double isDeviationLow = low.IsMember(
+                new Dictionary<IDimension, decimal>{
+                            { dimension, (decimal)max },   
+                    }
+            );
+
+            double isDeviationMiddle = middle.IsMember(
+                new Dictionary<IDimension, decimal>{
+                            { dimension, (decimal)max },   
+                    }
+            );
+
+            double isDeviationHigh = high.IsMember(
+                new Dictionary<IDimension, decimal>{
+                            { dimension, (decimal)max },   
+                    }
+            );
+
         }
     }
 }

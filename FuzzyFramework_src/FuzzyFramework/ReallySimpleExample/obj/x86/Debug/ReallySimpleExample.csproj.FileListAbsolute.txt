@@ -7,3 +7,12 @@ D:\Program Files\Системы искуственного интеллекта\
 D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\ReallySimpleExample\obj\x86\Debug\ReallySimpleExample.exe
 D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\ReallySimpleExample\obj\x86\Debug\ReallySimpleExample.pdb
 D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\FuzzyFramework_src\FuzzyFramework\ReallySimpleExample\obj\x86\Debug\ReallySimpleExample.csprojResolveAssemblyReference.cache
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\AIStudySystem\AIStudy\FuzzyFramework_src\FuzzyFramework\ReallySimpleExample\bin\Debug\ReallySimpleExample.exe
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\AIStudySystem\AIStudy\FuzzyFramework_src\FuzzyFramework\ReallySimpleExample\bin\Debug\ReallySimpleExample.pdb
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\AIStudySystem\AIStudy\FuzzyFramework_src\FuzzyFramework\ReallySimpleExample\bin\Debug\FuzzyFramework.dll
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\AIStudySystem\AIStudy\FuzzyFramework_src\FuzzyFramework\ReallySimpleExample\bin\Debug\PolyLib.dll
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\AIStudySystem\AIStudy\FuzzyFramework_src\FuzzyFramework\ReallySimpleExample\bin\Debug\FuzzyFramework.pdb
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\AIStudySystem\AIStudy\FuzzyFramework_src\FuzzyFramework\ReallySimpleExample\bin\Debug\PolyLib.pdb
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\AIStudySystem\AIStudy\FuzzyFramework_src\FuzzyFramework\ReallySimpleExample\obj\x86\Debug\ReallySimpleExample.csprojResolveAssemblyReference.cache
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\AIStudySystem\AIStudy\FuzzyFramework_src\FuzzyFramework\ReallySimpleExample\obj\x86\Debug\ReallySimpleExample.exe
+D:\Program Files\Системы искуственного интеллекта\СИМЕСТР 2\AIStudySystem\AIStudy\FuzzyFramework_src\FuzzyFramework\ReallySimpleExample\obj\x86\Debug\ReallySimpleExample.pdb
