@@ -34,7 +34,14 @@ namespace AIStudySystem
             EBTHigh,
         };
 
-        EBelongType DeviationType, AverageType, InfluenceType1, InfluenceType2; 
+
+        public struct FuzzyBelong
+        {
+            public EBelongType belongType;
+            public double value;
+        }
+
+        FuzzyBelong DeviationType, AverageType, InfluenceType1, InfluenceType2; 
 
         public Form1()
         {
@@ -158,7 +165,7 @@ namespace AIStudySystem
 
             double isInfluenceHigh = high.IsMember(
                 new Dictionary<IDimension, decimal>{
-                            { conclusion, (decimal)influence[buttonNumber,buttonNumber+1]},   
+                            { dimension, (decimal)influence[buttonNumber,buttonNumber+1]},   
                     }
             );
 
@@ -183,25 +190,88 @@ namespace AIStudySystem
             }
 
 
+            /////////////////////// Rules
+
+            double lowFromY1 = 2, lowFromY2 =2;
+
+            if (DeviationType.belongType == EBelongType.EBTLow && AverageType.belongType == EBelongType.EBTHigh && InfluenceType1.belongType == EBelongType.EBTHigh)
+            {
+                lowFromY1 = Math.Min(lowFromY1, DeviationType.value);
+                lowFromY1 = Math.Min(lowFromY1, AverageType.value);
+                lowFromY1 = Math.Min(lowFromY1, InfluenceType1.value);
+            }
+
+
+            if (DeviationType.belongType == EBelongType.EBTAverage && AverageType.belongType == EBelongType.EBTHigh && InfluenceType1.belongType == EBelongType.EBTHigh)
+            {
+                lowFromY1 = Math.Min(lowFromY1, DeviationType.value);
+                lowFromY1 = Math.Min(lowFromY1, AverageType.value);
+                lowFromY1 = Math.Min(lowFromY1, InfluenceType1.value);
+            }
+
+            if (DeviationType.belongType == EBelongType.EBTLow && AverageType.belongType == EBelongType.EBTAverage && InfluenceType1.belongType == EBelongType.EBTHigh)
+            {
+                lowFromY1 = Math.Min(lowFromY1, DeviationType.value);
+                lowFromY1 = Math.Min(lowFromY1, AverageType.value);
+                lowFromY1 = Math.Min(lowFromY1, InfluenceType1.value);
+            }
+
+            if (DeviationType.belongType == EBelongType.EBTAverage && AverageType.belongType == EBelongType.EBTLow && InfluenceType1.belongType == EBelongType.EBTHigh)
+            {
+                lowFromY2 = Math.Min(lowFromY2, DeviationType.value);
+                lowFromY2 = Math.Min(lowFromY2, AverageType.value);
+                lowFromY2 = Math.Min(lowFromY2, InfluenceType1.value);
+            }
+
+            
+
         }
 
 
 
 
-        public EBelongType calculateBelonging(double low, double middle, double high)
+        public FuzzyBelong calculateBelonging(double low, double middle, double high)
         {
-            if (low > middle && low > high) return EBelongType.EBTLow;
-            if (middle > low && middle > high) return EBelongType.EBTAverage;
-            if (high > low && high > middle) return EBelongType.EBTHigh;
+            FuzzyBelong result = new FuzzyBelong();
+            if (low > middle && low > high)
+            {
+                result = new FuzzyBelong();
+                result.belongType = EBelongType.EBTLow;
+                result.value = low;
+            }
+            if (middle > low && middle > high)
+            {
+                result = new FuzzyBelong();
+                result.belongType = EBelongType.EBTAverage;
+                result.value = middle;
+            }
+            if (high > low && high > middle)
+            {
+                result = new FuzzyBelong();
+                result.belongType = EBelongType.EBTHigh;
+                result.value = high;
+            }
 
-            return 0;
+
+            return result;
         }
 
-        public EBelongType calculateBelonging(double low, double high)
+        public FuzzyBelong calculateBelonging(double low, double high)
         {
-            if (low > high) return EBelongType.EBTLow;
-            if (high > low) return EBelongType.EBTHigh;
-            return 0;
+            FuzzyBelong result = new FuzzyBelong();
+            if (low > high)
+            {
+                result = new FuzzyBelong();
+                result.belongType = EBelongType.EBTLow;
+                result.value = low;
+            };
+            if (high > low)
+            {
+                result = new FuzzyBelong();
+                result.belongType = EBelongType.EBTHigh;
+                result.value = high;
+            }
+            return result;
         }
 
         private void button6_Click(object sender, EventArgs e)
